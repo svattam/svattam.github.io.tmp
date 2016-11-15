@@ -27,13 +27,9 @@
         }
       }
 
-      h1 {
-        background: url("{{ site.baseurl }}/vattam.jpeg") top left;
-        width: 202px;
-        height: 202px;
-        margin: 0 auto 37px auto;
-        display: block
-      }
+      <div class="post-author text-center">                       
+            <img src="{{ site.urlimg }}{{ site.owner.avatar }}" alt="{{ site.owner.name }}'s photo" itemprop="image" class="post-avatar img-circle img-responsive"/>
+      </div>
 
       h1:hover {
         background-position: bottom left;
